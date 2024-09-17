@@ -61,7 +61,7 @@ ul {
 .container{
     margin: 0;
     display: flex;
-    flex: row;
+    flex-direction: row;
 }
 .image{
     max-width: 100%;
@@ -75,7 +75,7 @@ ul {
     width:70vw;
     margin: 0;
     display: flex;
-    flex: row;
+    flex-direction: row;
 }
 .courses{
     background-color: rgb(206, 216, 232);
@@ -92,12 +92,12 @@ ul {
 }
 .skills{
     display: grid;
-    align-items: left;
+    text-align: left;
     grid-template-columns: 33% 33% 33%;
 }   
 .skills-container{
     display: grid;
-    align-items: top;
+    align-items: start;
     grid-template-columns: 48% 48%;
     column-gap: 4%;
 }
@@ -144,7 +144,6 @@ ul {
     }
     nav li{
         text-align: center;
-        font-size: calc(1vw+1vh);
         padding: 2% 0;
     }
     main{
