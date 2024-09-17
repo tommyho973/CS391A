@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box
+}
+
+html{
+    background-color: rgb(6, 24, 58);
+}
+body{
+    margin:1vh 1vw;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    text-align: left;
+    color:rgb(230, 223, 236);
+}   
+
+nav{
+    width: 20vw;
+}
+main{
+    width: 70vw;
+}
+li{
+    color:rgb(230, 223, 236);
+}
+p{
+    color:rgb(230, 223, 236);
+}
+
+h1{
+    margin-top: 0;
+    color:rgb(230, 223, 236);
+}
+h2{
+    color:rgb(230, 223, 236);
+}
+h3{
+    color:rgb(230, 223, 236);
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0; 
+    margin-right: 2%; 
+    background-color: rgb(150, 226, 222);
+    text-align: left;
+    border-radius: 15px;
+}
+nav li{
+    display: block;
+    width: 100%;
+    padding: 15% 0;
+    text-align: center;
+}
+
+ul {
+    padding:0;
+    list-style-type: none;
+}
+.container{
+    margin: 0;
+    display: flex;
+    flex: row;
+}
+.image{
+    max-width: 100%;
+    max-height:100%;
+    margin-right:1vw;
+}
+.intro-text{
+    font-size: 20px;
+}
+.class-container{
+    width:70vw;
+    margin: 0;
+    display: flex;
+    flex: row;
+}
+.courses{
+    background-color: rgb(206, 216, 232);
+    padding: .1vh .5vw;
+    margin: 1vh 0;
+    border-radius: 15px;    
+}
+.courses h3{
+    color:black;
+}
+.courses li{
+    margin: 5vh 0;
+    color:black;
+}
+.skills{
+    display: grid;
+    align-items: left;
+    grid-template-columns: 33% 33% 33%;
+}   
+.skills-container{
+    display: grid;
+    align-items: top;
+    grid-template-columns: 48% 48%;
+    column-gap: 4%;
+}
+#calc p{
+    color:brown;
+}
+#first-number{
+    background-color: black;
+    border-radius:50px;
+    color:white;
+}
+#second-number{
+    background-color: black;
+    border-radius:50px;
+    color:white;
+}
+
+.opbutton{
+    border-radius: 50px;
+    background-color: orange;
+}
+.clearbutton{
+    border-radius: 50px;
+    background-color: gainsboro;
+}
+@media screen and (max-width: 768px){
+    .header{
+        text-align: center;
+    }
+    nav{
+        width: 100vw;
+        display:flex;
+        background-color: rgb(206, 216, 232);
+    }
+    nav ul{
+        width: 100vw;
+        height: 8vh;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        margin:0;
+        padding:0;
+        
+    }
+    nav li{
+        text-align: center;
+        font-size: calc(1vw+1vh);
+        padding: 2% 0;
+    }
+    main{
+        width: 100vw;
+    }
+    .container{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .image{
+        margin-left: auto;
+        margin-right:auto;
+
+    }
+
+
+}
